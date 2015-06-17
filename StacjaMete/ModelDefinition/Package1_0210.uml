@@ -1,0 +1,1839 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="d65b1f5b-dece-4f19-a2a2-f1b462926c8d"
+  name="Models"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="08f91af0-5c4c-4ef1-8282-90640f3c7db9"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMetStation.Models"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="0e844211-06ff-432f-b62e-b113c821f202"
+        name="Pomiary"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="d8faf230-0e0c-483a-b17e-ec0e85eeb648"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Models Type%3DPomiary"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="f600f355-ccff-4b97-8d6c-5269b207ea03"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1ff40e8a-f133-4a30-8d71-89a3eebbc08e">
+                <propertyInstance
+                  Id="f81567ed-af61-4f03-b668-bef5fca450fd"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a5bc788b-ef4d-47d9-b73f-22034cb932bd">
+                <propertyInstance
+                  Id="f3aff423-6d21-4b5a-a6e7-f32384b13429"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8714bbae-059d-44fa-95ea-748fe004f8bc">
+                <propertyInstance
+                  Id="5f7bf2dd-05e9-4d80-832d-8a73c0efd94f"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6533dfbb-fa3e-4cec-9367-0c3cc202b73f">
+                <propertyInstance
+                  Id="5457645d-a6e0-4718-9d37-cbe8c18996a4"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="920202ba-1463-4084-83e1-15ab9a5cfbd5">
+                <propertyInstance
+                  Id="0a3d2001-c2be-454b-abf1-de0a163c268e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="67aded60-3221-4455-a8f5-479df8c834a5"
+            isDerived="false"
+            sourceEndRoleName="Pomiary"
+            targetEndRoleName="Cisnienie"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="22a63748-94de-4f5d-bf56-08bec7373448"
+              LastKnownName="Nullable&lt;Decimal‎&gt;"
+              LastKnownLocation="Package2_0210.uml" />
+            <description>Property Cisnienie references type Nullable&lt;Decimal‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c86e31e5-055b-4c83-96b4-03bf1c72bc71"
+                  name="Pomiary"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="7c52ed77-5ac7-4e95-8def-d4dba60c04b6"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="867ca695-ed4d-40ca-9bfe-0f970c710949"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="42f982d9-7843-441c-a86b-65827fa116af"
+                  name="Cisnienie"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="d39cdc5f-6627-471d-b0eb-455e44e5e290"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="630e7baf-d4dd-453d-97c6-a8b314f5f4b1"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="0cb862d7-d4d5-4331-9a8c-ca71acf0a8b5"
+            isDerived="false"
+            sourceEndRoleName="Pomiary"
+            targetEndRoleName="Data"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="11da0129-3324-49a3-84fd-6cfdbff765e7"
+              LastKnownName="Nullable&lt;DateTime‎&gt;"
+              LastKnownLocation="Package2_0210.uml" />
+            <description>Property Data references type Nullable&lt;DateTime‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9ecfc14e-d656-47c7-9a55-48442b8f2247"
+                  name="Pomiary"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="0766fcee-2769-466a-9f91-2afe1f42f876"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="2cd6be5c-21b7-410d-8837-28e2eef7229f"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1ffe1367-6282-4fb6-a5d3-4d7be4b145a0"
+                  name="Data"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="9fcbd327-4a53-4aa8-a1fe-f00cd0762f16"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="71e12118-f391-4ea3-883d-f63af3c05fd3"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="c6ae0d31-cc64-4825-a3ab-28573d7edfb6"
+            isDerived="false"
+            sourceEndRoleName="Pomiary"
+            targetEndRoleName="IdPomiaru"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="47d2d6eb-cd63-4e28-9cd6-ae1cbcfaf9a5"
+              LastKnownName="Decimal"
+              LastKnownLocation="Package2_0210.uml" />
+            <description>Property IdPomiaru references type Decimal.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b74b9751-96b8-47d4-bcdb-dc8983615382"
+                  name="Pomiary"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="5652fdc2-784f-43b9-bf5f-b9d6ae67bdde"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="f64620a9-efd1-422d-b082-7db1c78467da"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3cf6814b-fc55-438d-8f7e-88f12f5d01cc"
+                  name="IdPomiaru"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="b1cbcb0f-1b49-4699-a55d-373af32e014c"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="7862bc8f-1c60-4716-946f-1f56d46c8e02"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="0c64e389-f32e-460c-a543-783b27526264"
+            isDerived="false"
+            sourceEndRoleName="Pomiary"
+            targetEndRoleName="NatezenieSwiatla"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="22a63748-94de-4f5d-bf56-08bec7373448"
+              LastKnownName="Nullable&lt;Decimal‎&gt;"
+              LastKnownLocation="Package2_0210.uml" />
+            <description>Property NatezenieSwiatla references type Nullable&lt;Decimal‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="71ccf4f9-0aff-4090-859c-b36a10038278"
+                  name="Pomiary"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="fba28d64-ae43-455e-ab5e-abb27c4221e4"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="6a3858b7-3572-4f27-8388-dcf786282384"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="de103dd6-dc5d-4ee4-9913-78fe36b0a8d1"
+                  name="NatezenieSwiatla"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="09391acb-2049-43d8-8c80-f4a93576eb22"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="9c513b13-7eef-45fa-a2c8-2233c340dc9b"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="4a7e7558-8af2-40ed-8658-815077dc4eff"
+            isDerived="false"
+            sourceEndRoleName="Pomiary"
+            targetEndRoleName="Temperatura"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="22a63748-94de-4f5d-bf56-08bec7373448"
+              LastKnownName="Nullable&lt;Decimal‎&gt;"
+              LastKnownLocation="Package2_0210.uml" />
+            <description>Property Temperatura references type Nullable&lt;Decimal‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="27c1b497-60bb-4e37-b965-3fa00a57e261"
+                  name="Pomiary"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="1d7a66bd-6011-418a-a9db-0d3bf7c912f2"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="20a7be4f-4781-45c1-8a45-3d0c73822040"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="98bcaaf8-8292-44ad-8635-d0b87bc60bfd"
+                  name="Temperatura"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="dbd4c2d0-2a1d-4497-8780-43b327111ba7"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="eeb8842b-e4e0-4606-b86c-1ad94f71e51d"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="75c80240-acaa-419f-a243-92015d189c90"
+            name="Cisnienie"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="e1211216-7de7-4871-861f-3459447faccc"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Models Type%3DPomiary Member%3DCisnienie"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a9d2343b-55e4-4e07-b657-79016ac34df9"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce87dfc3-97e6-47e1-8a66-2ff4ae864511">
+                    <propertyInstance
+                      Id="a8078c6d-7be3-48c4-8129-879f5f4b3542"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d0d5b36f-3454-4e89-abc1-79fa816a980d">
+                    <propertyInstance
+                      Id="23e2b3c0-b83e-4d66-a21b-10040b06655e"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9a08152c-3190-41e9-b466-28c90fc910f7">
+                    <propertyInstance
+                      Id="c80f1ba4-71b1-4f0a-af79-a99eba81bf5d"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="64f87178-4d9f-4653-a3d0-6a7f37501fdb">
+                    <propertyInstance
+                      Id="6dc6c170-4369-4478-8f98-8cf217eab29f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="40c43609-3d99-4432-b936-08acdc21f9f6">
+                    <propertyInstance
+                      Id="56c7dc87-d01c-4747-b556-a5a0dfcc3005"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b0b4890f-ee20-4771-8310-71e61a4ded22">
+                    <propertyInstance
+                      Id="cbf83706-cd4c-46db-976f-0509384be814"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="521e42bd-4aa8-4908-8a07-bce5bd191a02">
+                    <propertyInstance
+                      Id="75a1a128-44c5-4b57-8bc1-5ec77e3c0118"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="22a63748-94de-4f5d-bf56-08bec7373448"
+                LastKnownName="Nullable&lt;Decimal‎&gt;"
+                LastKnownLocation="Package2_0210.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="9863ac9b-a074-4c4e-8607-10b299fa5613"
+            name="Data"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a8a33972-e3df-4366-8c24-d6711693ef90"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Models Type%3DPomiary Member%3DData"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fb2adcad-e686-49da-a42f-19b0fb55afe5"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b57d6541-7d9b-43f0-b314-6d2834e3234d">
+                    <propertyInstance
+                      Id="e4b219fd-a98f-4b45-8502-e9cb550ffea3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c738dcde-1e92-493d-9019-9a82c493a96e">
+                    <propertyInstance
+                      Id="797a4388-b189-4d6b-8b5d-270892c49de4"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9664c8de-d332-404d-aa0a-4bd7547ea11b">
+                    <propertyInstance
+                      Id="5bad233c-f622-4b2e-b55d-1a6b10619c53"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8485a670-15b6-4efe-935c-6322d28d8d81">
+                    <propertyInstance
+                      Id="af3544dd-331b-44d8-b280-e8b00a64654b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="32800815-dfc2-4fe1-a492-fdac6a933585">
+                    <propertyInstance
+                      Id="a4d87397-ccfa-41d0-9ac7-55ed12596fad"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="40488fe8-b035-455a-8780-52cbc2395db2">
+                    <propertyInstance
+                      Id="c4a57afa-4422-41c6-8448-624461cb7e30"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4a840cd3-43c6-464a-a2e4-79f26768d843">
+                    <propertyInstance
+                      Id="d674048c-8299-4eda-bdd3-245fc6485c91"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="11da0129-3324-49a3-84fd-6cfdbff765e7"
+                LastKnownName="Nullable&lt;DateTime‎&gt;"
+                LastKnownLocation="Package2_0210.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="0067f532-2562-46e6-966b-d0043691a31a"
+            name="IdPomiaru"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="1a8b8e01-1b00-4cf3-a961-6e2ae379d6bf"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Models Type%3DPomiary Member%3DIdPomiaru"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7f8e0708-dce7-4c3e-977b-ad1a064b1898"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4ce11242-088f-4cf7-adbd-3bca5009c510">
+                    <propertyInstance
+                      Id="9166ae3e-637a-47a0-9fc6-2273c01ea1af"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b1d6310-5c1a-4dc6-8cba-9b7df60e4a7b">
+                    <propertyInstance
+                      Id="efdeee31-06e7-43b7-83bc-6ad1458f95d5"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8723292f-2081-4d19-b575-5cad33cfd4da">
+                    <propertyInstance
+                      Id="b2294757-b672-4a9e-94c4-bd381a1f28cc"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1f667488-27fd-4854-8c0b-14522844e89f">
+                    <propertyInstance
+                      Id="8a1adf36-33eb-42ec-96b2-9df7336a9b0a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dc67d7e5-0f70-4f5b-85f6-7ba5f4bfb291">
+                    <propertyInstance
+                      Id="d46ef747-3d14-4893-ac0d-97b7fca75877"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db941358-85a5-4e66-8161-4215c66de930">
+                    <propertyInstance
+                      Id="6560c4bf-9975-4e74-942a-c1325a704f84"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9558c7b0-31d1-49f0-a0b8-28f34be35e38">
+                    <propertyInstance
+                      Id="70e40358-6ac1-4f52-bb92-00fac64e9c93"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="47d2d6eb-cd63-4e28-9cd6-ae1cbcfaf9a5"
+                LastKnownName="Decimal"
+                LastKnownLocation="Package2_0210.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="3ac387b9-3e8d-4cd1-be90-f5d474e130bc"
+            name="NatezenieSwiatla"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b454c4fc-47db-4024-86b7-9f7c7fe3355d"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Models Type%3DPomiary Member%3DNatezenieSwiatla"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="eaa05143-db5e-48c2-b55c-91c9baef2524"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4e28b6d1-dfc9-4cf8-a127-01a1d3f2f565">
+                    <propertyInstance
+                      Id="903bb03f-ad50-4bae-851c-9194dc7f77a5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db03ba50-b45f-47e7-b173-fc4e58ba7792">
+                    <propertyInstance
+                      Id="093418f0-1b92-477b-acd8-b14646d1c089"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5807b741-dc50-4323-b3a9-f8f7180f7cbd">
+                    <propertyInstance
+                      Id="47240c1d-be6e-47b8-8d32-6328488892a1"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="772bc382-2bcd-4d7a-9755-677d38d3fed6">
+                    <propertyInstance
+                      Id="119801f8-295a-4d69-b19f-3fdc47ddb689"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ce9f318-281b-46af-b097-cbff23090286">
+                    <propertyInstance
+                      Id="2135034e-d67b-4cdc-af4d-e1761a0a8f54"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="97a70066-1b3d-4fec-878d-9ca1e436efc2">
+                    <propertyInstance
+                      Id="bf64a805-265c-49f4-a38c-70339eb35adc"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="749444c6-6bfc-4de5-9294-23e5471bebed">
+                    <propertyInstance
+                      Id="8417070f-92c5-4421-927d-cf9015fb5676"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="22a63748-94de-4f5d-bf56-08bec7373448"
+                LastKnownName="Nullable&lt;Decimal‎&gt;"
+                LastKnownLocation="Package2_0210.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="8298f990-d416-4c60-b6f8-588f95478eb0"
+            name="Temperatura"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a4bf646e-b620-4c2a-b48e-c1d0d6985a73"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Models Type%3DPomiary Member%3DTemperatura"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="93cbfc8a-7382-4c42-9633-606e0e8a7777"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7eee7407-3b2f-4332-954d-85ee56a62410">
+                    <propertyInstance
+                      Id="6bc7f54a-69ce-4f1f-97de-1da1d9d00810"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5eb5075e-9b17-4284-b287-10b6149808ae">
+                    <propertyInstance
+                      Id="498899aa-8dfb-4203-a26b-ac8599788733"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f816a24-c87a-4623-bbcd-64011422ba7e">
+                    <propertyInstance
+                      Id="d0ea44cb-665d-4752-9928-edee31e6a197"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d026e0b-9aed-414d-b5f8-a50369951500">
+                    <propertyInstance
+                      Id="d5e69eaa-7cdf-490c-8447-81e00b999065"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8337adbc-ec75-46d3-92ad-adabc1b5d65b">
+                    <propertyInstance
+                      Id="c21b41c6-2f85-4e09-8a8a-0d7169c20fb9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eff56ee5-bfe9-4219-b50f-48ca790618a3">
+                    <propertyInstance
+                      Id="9ab46052-64f0-411f-ae96-0ee40fa592d9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5c880233-f87f-446b-a875-7478d3d6c74b">
+                    <propertyInstance
+                      Id="204386d4-7e0c-4145-a924-ea884e56c5c2"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="22a63748-94de-4f5d-bf56-08bec7373448"
+                LastKnownName="Nullable&lt;Decimal‎&gt;"
+                LastKnownLocation="Package2_0210.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="5d2da5db-e425-4845-8a6d-51cedf054f0e"
+            name="Pomiary"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="321e273a-039b-4543-b8b6-8d882b1fd198"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Models Type%3DPomiary Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="79c254b3-7085-47fc-b119-3510ef9b6ce5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4623ca72-4ae5-4c92-a056-91be7bffb2dc">
+                    <propertyInstance
+                      Id="ea4c0e3f-fa4f-44b0-bad8-9c2177f7a286"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="22529592-687f-4b34-b7a0-67ec61516019">
+                    <propertyInstance
+                      Id="45a97ce7-e909-438d-810a-6c4740a94a1d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2764f498-9f95-4fd0-9bb0-b24b7bc9f905">
+                    <propertyInstance
+                      Id="30f22abd-19fd-4ba3-9909-02d70d43880b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f4e25116-df98-4548-9af2-7f161e41cc5d">
+                    <propertyInstance
+                      Id="31fe042c-f52c-4b19-b2d4-444f0f10f610"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e40fabc6-4b67-4ea7-a833-71c659fcb8da">
+                    <propertyInstance
+                      Id="e119efd1-9fee-44ba-96ba-17f6edac919f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e1d8971d-a3c4-46f6-9f0e-c3ba2b386c70">
+                    <propertyInstance
+                      Id="6ea60665-a960-4737-8c00-e7944d5bb6e7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="7aa915f0-75b0-4765-8c5a-8fffebb3ca56"
+        name="StacjaMeteoEntities2"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="7eb36c04-6864-42d5-8b80-080fbbec19da"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Models Type%3DStacjaMeteoEntities2"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="19d81a37-2baa-4c9f-a352-f21c0872a8cb"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fd15d73b-ed78-4aa7-9881-5478a87e2770">
+                <propertyInstance
+                  Id="ae8a9639-d9d3-409a-a977-6d92c6af919b"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="20d3d38e-e17b-4318-ab5b-8638da0eb503">
+                <propertyInstance
+                  Id="4b3d0e36-c388-42ba-a8eb-0ab32be6f843"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cfa49738-4984-46c4-8fe4-bf446f870d7f">
+                <propertyInstance
+                  Id="e08e2712-7d8f-43b1-85a1-d8ffaa0134d8"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c05f2019-2b40-4edd-bdf2-288db3a39e92">
+                <propertyInstance
+                  Id="76bdc4b0-2ea7-4020-8352-0f5ad706de1f"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8d7427f1-3071-4336-b942-f0f987bddff9">
+                <propertyInstance
+                  Id="5054089a-4d96-402f-ab8a-6f949d173e8f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="f403c9bc-a2a0-40b3-93a6-497591abef75"
+            isSubstitutable="false">
+            <classMoniker
+              Id="6e1e345e-6fa8-4633-b446-481554785a3a"
+              LastKnownName="DbContext"
+              LastKnownLocation="Package4_0210.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="e7a17141-ce11-4ed5-967f-5639f62ed01c"
+            isDerived="false"
+            sourceEndRoleName="StacjaMeteoEntities2"
+            targetEndRoleName="Pomiary"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="903dd929-1d15-47ff-b1a0-261cbbfe97e7"
+              LastKnownName="DbSet&lt;Pomiary‎&gt;"
+              LastKnownLocation="Package4_0210.uml" />
+            <description>Property Pomiary references type DbSet&lt;Pomiary‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="76813781-b328-420c-8c3b-5c98f3092579"
+                  name="StacjaMeteoEntities2"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="d28f0864-338a-4977-bed6-21beb976885d"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="c5ed3f99-aea8-418b-b53a-ef41b34970fd"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7a76693a-2ac7-4648-acdb-c6938bab66d3"
+                  name="Pomiary"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="d6cd35af-51c2-42f1-abff-1577a4bd3ac6"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="d97c7f35-b4cb-4cea-a3c7-1fd098007933"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="047dce02-1c87-4c11-9741-ed79534ea931"
+            isDerived="false"
+            sourceEndRoleName="StacjaMeteoEntities2"
+            targetEndRoleName="Uzytkownicy"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="3cf028a5-afb4-48f3-8ced-93739fade8dd"
+              LastKnownName="DbSet&lt;Uzytkownicy‎&gt;"
+              LastKnownLocation="Package4_0210.uml" />
+            <description>Property Uzytkownicy references type DbSet&lt;Uzytkownicy‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e8b7b771-9c27-42cc-9cc6-ff2e37f39d5c"
+                  name="StacjaMeteoEntities2"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="be13c1fd-98ea-4204-b194-6c322f2bb738"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="409a023f-e72d-4000-8498-55f01243ddcf"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2be3efc1-f985-4264-b8cd-41d9af94d823"
+                  name="Uzytkownicy"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="41d34676-b25f-4892-88cc-e5a4e6287439"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="5d55c843-496f-41c8-b407-dd8ff7d8bb79"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="3c904e71-c355-45c0-ab63-c5573c56a1b0"
+            name="Pomiary"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="7709823a-8b3f-46a7-8025-d869ed480435"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Models Type%3DStacjaMeteoEntities2 Member%3DPomiary"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="15854335-9612-4318-828a-dbf91e12970b"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f77156d7-8856-46d0-8cb7-5e1c802b9293">
+                    <propertyInstance
+                      Id="cc457c43-f726-4f53-91c2-0ceb3294cb2a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e793e2cd-5f9b-460e-a9c3-d50b92327d77">
+                    <propertyInstance
+                      Id="922af8a1-e37b-426d-8c98-b7cbe7be57a4"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5b316945-635f-4deb-8436-c65812e4f68d">
+                    <propertyInstance
+                      Id="734ee6c7-a4c5-46fd-a122-b1646d140fa0"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="03bddbbd-2846-4fa1-b0eb-6f003f65b8e4">
+                    <propertyInstance
+                      Id="2b0be884-c8ee-4e08-9e9d-3bcee4d417ab"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5e75f674-470b-48d3-9f81-64a6847c248e">
+                    <propertyInstance
+                      Id="be91572a-3a03-428f-92f6-fa1a8ad10c92"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11b5fa19-a16a-4588-9881-feb99c5b833f">
+                    <propertyInstance
+                      Id="9a9e3dd5-c04e-4cd1-94f0-401917ede09f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c51003b8-b723-4444-bc35-2634caad2c95">
+                    <propertyInstance
+                      Id="87d594d0-70d5-4de8-85d9-1c3756744727"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="903dd929-1d15-47ff-b1a0-261cbbfe97e7"
+                LastKnownName="DbSet&lt;Pomiary‎&gt;"
+                LastKnownLocation="Package4_0210.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="2fbed540-5380-40e6-88f6-62be81254ea4"
+            name="Uzytkownicy"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="96412df5-926d-4aef-a167-d73a0088e160"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Models Type%3DStacjaMeteoEntities2 Member%3DUzytkownicy"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="44157fd9-063a-4585-a764-9ffa8fdd86ef"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9efb0d60-b320-4799-a91e-8a92460ac117">
+                    <propertyInstance
+                      Id="e5739aa2-82b4-4dbf-9271-151f01b1f114"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="708e2b37-89ff-4d84-8e27-34bd26b57e9c">
+                    <propertyInstance
+                      Id="a9f34795-951b-4c15-b9a1-fe8ed42b423e"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="acd3da4b-6dfc-423a-a835-d1f1b7ce9650">
+                    <propertyInstance
+                      Id="001d0b66-ac97-4c1b-940d-4b9561f9b20f"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b888678c-e7c1-4ac1-ad57-df7784955cf4">
+                    <propertyInstance
+                      Id="5bd937ca-d957-4355-8dc3-317541a95f3c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a7afaa5-27ce-481d-8717-091b84257ca2">
+                    <propertyInstance
+                      Id="3a952706-63d4-41e9-af9f-797bb1c9c7b6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6d6ac3c8-341c-441d-816f-8b7181e41115">
+                    <propertyInstance
+                      Id="28e1d6a0-94f9-40f0-8a6c-227ce6d11c66"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c4a4bbf6-0a09-45a6-aec5-041c1ac23780">
+                    <propertyInstance
+                      Id="78a1b79c-6259-4761-bd2d-7479735e4509"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="3cf028a5-afb4-48f3-8ced-93739fade8dd"
+                LastKnownName="DbSet&lt;Uzytkownicy‎&gt;"
+                LastKnownLocation="Package4_0210.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="1807e431-221b-4176-9309-d5d048e82e37"
+            name="OnModelCreating"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c5b48e68-2e4e-4e18-8e46-f49625d85a2c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Models Type%3DStacjaMeteoEntities2 Member%3D(Name%3DOnModelCreating OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2Fpackages%2FEntityFramework.5.0.0%2Flib%2Fnet40%2FEntityFramework.dll&quot; Namespace%3DSystem.Data.Entity Type%3DDbModelBuilder)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="868f7436-1f0c-4334-80fa-8cc61a33245c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f28c41ca-297f-4c37-aaa8-0ff0151a1627">
+                    <propertyInstance
+                      Id="7d542e8f-b6c0-4425-b52d-2d2099fb7244"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6d877cdf-b79e-421f-8b1e-cd4b769fa7bf">
+                    <propertyInstance
+                      Id="1d46d0ce-0273-44d0-807e-5861e0371f8b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dec320af-12ba-4ef6-a8c3-083aaba11c1f">
+                    <propertyInstance
+                      Id="83c028cd-2358-4737-af29-0bba52f7c5cc"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9dc06c3e-316a-4b4f-a9c2-65cf3c5c62a4">
+                    <propertyInstance
+                      Id="32d4d3c3-998d-4381-9bed-a141a10d3a98"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c2076b7-b012-4394-82e1-b78d64c2e7ea">
+                    <propertyInstance
+                      Id="a201303f-677f-4d24-8e87-848732c1f563"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="741728cd-b185-40e6-8cb6-2be4f3057fdd">
+                    <propertyInstance
+                      Id="b9397698-7d73-498a-a3f2-2fadb6d8144b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="be22c1f8-9fdb-4644-bc10-d9e2af2f8e25"
+                  name="modelBuilder"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e95e78c5-1b3e-4113-a52c-7fa76b6dede7"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Models Type%3DStacjaMeteoEntities2 Member%3D(Name%3DOnModelCreating OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2Fpackages%2FEntityFramework.5.0.0%2Flib%2Fnet40%2FEntityFramework.dll&quot; Namespace%3DSystem.Data.Entity Type%3DDbModelBuilder)]) ParameterIdentifier%3DmodelBuilder"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="d905bd85-7ffb-47d4-a927-82ac6642ba91"
+                      LastKnownName="DbModelBuilder"
+                      LastKnownLocation="Package4_0210.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="7109f16c-67aa-45a0-ac0a-c7220a8f4d13"
+            name="StacjaMeteoEntities2"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="899b6aaf-a90c-4915-804d-8dc0b7bba993"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Models Type%3DStacjaMeteoEntities2 Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8709ddf0-1b29-41e6-89a1-60769e5b6ebb"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="69f00182-e424-47c0-94a4-6f93366e6082">
+                    <propertyInstance
+                      Id="658e4a64-8336-445c-9804-af5f15693a62"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea05b8fc-39e9-4ed0-84c3-9c849cdb210d">
+                    <propertyInstance
+                      Id="eaa01ffd-4b8c-4bad-a250-adc68455db20"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f17d34c1-c778-4304-89a4-9711a40eaaec">
+                    <propertyInstance
+                      Id="acbd78a7-8378-4aab-a68a-6655550c3c72"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="53ecbf11-1253-4e66-914e-575fdfdc7c37">
+                    <propertyInstance
+                      Id="e5e15d9e-0177-498b-a95c-02df15fe4e13"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="304ecd85-b744-4723-9d7c-a4eda5051d6e">
+                    <propertyInstance
+                      Id="c0cca0de-f432-4137-ac0b-713256eaecf8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6858994f-5c81-48b6-a699-403dfca67571">
+                    <propertyInstance
+                      Id="cf2c52b5-a304-4331-a075-e2b0f8c39382"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="3fb48a77-728f-4cb7-8b33-891c907cc166"
+        name="Uzytkownicy"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="7a0341d2-ffd2-4876-8182-c20fea21d07e"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Models Type%3DUzytkownicy"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="67ce5816-05b8-4b86-8789-c5f860b466a9"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fefd2c30-aa27-4859-a53a-0c3bc94d5290">
+                <propertyInstance
+                  Id="9cf727fb-0c5f-49a7-8819-7b1bd38126a7"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dcc669da-cd32-4aa6-9d3c-68815450c514">
+                <propertyInstance
+                  Id="c63fb744-c5ed-4e5a-9d2c-607271f3b5b7"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f35a9341-3230-4c2b-8193-063059608d14">
+                <propertyInstance
+                  Id="cfcc91f6-2393-43d4-9e3e-07956edca7ba"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e2efd886-af96-460a-bf65-cd73486ac726">
+                <propertyInstance
+                  Id="142ed8c6-6b23-4859-94fd-1980b330cfde"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="87609952-b1a3-4f38-a9df-d11ebc13231f">
+                <propertyInstance
+                  Id="cccafb27-274a-451d-a311-56b1c38e8fb5"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="3f2db893-ee95-4b83-91b9-4d2b95558672"
+            name="ConfirmPassword"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="79a51615-7ca0-41df-b600-10bbce972537"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Models Type%3DUzytkownicy Member%3DConfirmPassword"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ddbac4fe-a2b7-47c7-8410-661212e9fd4a"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c4c78c56-921e-4ef5-aedf-698605c62c72">
+                    <propertyInstance
+                      Id="7a9338db-da95-4f17-9b01-93da5522f570"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fd1a74b2-d1ce-4564-ad0e-b1e168e46190">
+                    <propertyInstance
+                      Id="a98abca4-fccc-4775-a0b9-bc6a4d5b22fd"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5a787ca7-ecae-44cd-a407-77d04fa22b52">
+                    <propertyInstance
+                      Id="efc6da2b-fb36-4068-b023-16596abff8b1"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="317938eb-24b0-4ae9-b920-9bd5157d0d2a">
+                    <propertyInstance
+                      Id="00defa7b-87eb-4291-9fe8-30ebdefb0480"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1b59b404-12bb-4d99-9ed0-1efc9a4baef9">
+                    <propertyInstance
+                      Id="e5982613-41ac-4ace-8cfd-70574b1b1ab2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4be7e999-e3c6-49c3-97a4-8039073fe64e">
+                    <propertyInstance
+                      Id="f4776d93-3b43-4d25-bee7-222f484a8573"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3818db34-7c5f-4933-851a-6ff48145c542">
+                    <propertyInstance
+                      Id="e0d0a603-2970-477b-8acd-103cd6bc309e"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="StacjaMete.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="abac09f9-b93f-4636-a643-133fb128672b"
+            name="Email"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="2628f0bd-5575-48bb-83ee-afd992b4ea96"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Models Type%3DUzytkownicy Member%3DEmail"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6cf6db73-ea77-4903-afbb-8e69a34531f5"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="38df77e3-bebd-4052-af2e-8f23c16cea2e">
+                    <propertyInstance
+                      Id="a6505a53-1fad-4a51-be41-dd52953092f4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="81410a53-dd66-41c2-b0f8-9176800ba984">
+                    <propertyInstance
+                      Id="81f0daa1-d0cc-4893-b3f4-76e8a2286174"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="59f08750-e1ae-4834-bcbb-f191ac4a6f3b">
+                    <propertyInstance
+                      Id="14e76e97-656d-420f-b720-0f2379d583c1"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="72700f19-2057-4bb5-9a21-1cde1413c256">
+                    <propertyInstance
+                      Id="ee91f315-d8f0-4e85-a83e-f91e8d3fce6a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa662b59-9120-443f-a7dd-38575fcba364">
+                    <propertyInstance
+                      Id="cf4beacf-b823-4e54-9063-c32dee383959"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa03b900-9a09-4347-9e38-c31b41918304">
+                    <propertyInstance
+                      Id="94c30953-f629-4a7c-8176-6156dac73d8c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="21487df0-c28d-49cd-9e49-d84ad84d2763">
+                    <propertyInstance
+                      Id="1379e6af-73c4-4a45-b997-973058fe9f88"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="StacjaMete.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="3e5f4385-1d7c-44a0-9f9e-98c8793916b6"
+            name="Haslo"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="673ea567-cc06-4136-9bbd-0170ac835828"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Models Type%3DUzytkownicy Member%3DHaslo"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a6d42e5f-68c4-48a1-bf1a-e1f2ae2c81bc"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f4a78e4f-771e-4263-9168-ae76ea20c5ed">
+                    <propertyInstance
+                      Id="661196b6-29dc-4d59-8c82-aca786c292b1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3942bb0c-2690-4036-8767-3c3f2a2fcd25">
+                    <propertyInstance
+                      Id="9fc4e8eb-0934-43b3-9be2-3c1a36db2c8f"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4cef96b6-bf28-41e9-9c11-0df7f3db724b">
+                    <propertyInstance
+                      Id="18af0a7d-bbde-40a3-bbfc-71c6027ed6ed"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="63117fe3-34b9-4ee5-a57b-67b0921b2bac">
+                    <propertyInstance
+                      Id="ddfcb4db-491c-4fa5-8ce1-58f35fd352f8"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="63e0840c-753e-402c-82a9-5b9709f0d481">
+                    <propertyInstance
+                      Id="d2eabab5-33ca-4cba-8f96-48fa3e8f8b43"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="499fa32e-953f-4066-8353-b16fe0907d36">
+                    <propertyInstance
+                      Id="1b3e5991-22d1-4f26-92e0-670d8ac282da"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4a57019-3122-4f3f-a4fc-92b5cbcbc9e5">
+                    <propertyInstance
+                      Id="14715cb8-2451-407a-afc8-4f2d449c5ed8"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="StacjaMete.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="47d574af-0bec-4825-94f8-bc66e7658293"
+            name="Uzytkownik"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="e1dcea6b-f6b8-49b1-a719-481e4a8e4c51"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Models Type%3DUzytkownicy Member%3DUzytkownik"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="90cd6bb2-50d9-4e72-bff5-f20bfefeeacb"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4dba616c-3988-4a74-9187-0c4959d592d7">
+                    <propertyInstance
+                      Id="61fb082a-9152-4bb7-a1ca-89033736f9bd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1c8aa4a3-d297-4033-bcca-0fdefe41f9ca">
+                    <propertyInstance
+                      Id="0fa3856e-dd5b-442a-ad95-faecc03d91c3"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c3b4be9a-a229-46fa-8e87-641509e4994b">
+                    <propertyInstance
+                      Id="ecd2a5a5-c2a1-46a2-af6b-4a093763dad5"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8fcc3ca1-536f-4129-82f8-c01d19a15322">
+                    <propertyInstance
+                      Id="914ab500-c28e-4cfc-89e0-fdd8a755f3a4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="124fd9ba-d90b-4667-b08f-e0bf657c4fc9">
+                    <propertyInstance
+                      Id="bfcaadeb-a205-4fd0-ab94-34dd8d885bf2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a1bd966e-58a5-47b8-bb95-6ff169d2aac2">
+                    <propertyInstance
+                      Id="d7d58de2-e76b-433a-9b88-c79ae3ec6be1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c93456d8-95bd-49a0-8d9c-f89739094aec">
+                    <propertyInstance
+                      Id="9ff20fe2-11fb-4271-b406-ffbc212d00be"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="StacjaMete.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="ee644f32-16a6-4055-8218-ace8763e84ff"
+            name="Uzytkownicy"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="48fc2be2-cd45-4eea-a581-062724cea552"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Models Type%3DUzytkownicy Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="92eef1e4-02d6-456a-8347-185e2c9cafdb"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2f0d1dce-7135-4b36-9826-adb10a446cc4">
+                    <propertyInstance
+                      Id="f99f3e09-9fe7-4044-ac80-91bbe9b86f75"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2aeed18d-0dc6-4600-956c-bd5cb0e5d67f">
+                    <propertyInstance
+                      Id="6afa5ebd-287a-4595-9d2b-2b0572fdc780"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a0f7927-62b8-4c4e-b433-0822f8d31b15">
+                    <propertyInstance
+                      Id="736d2d25-aaef-4b93-8466-55b5f818ba62"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9909c3c2-1fa7-4adb-b05e-65ffa4ea1278">
+                    <propertyInstance
+                      Id="e91278af-6a48-4f68-b858-7b222bfc7557"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fcaa687b-ce55-4731-a865-2ac16e7694bd">
+                    <propertyInstance
+                      Id="5708ea5a-4995-403c-8f62-8a72ea72703f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a5c929ec-aa23-4e74-9947-e7995a081c55">
+                    <propertyInstance
+                      Id="ee8e1d04-b647-411e-aca7-72f4adaa3090"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

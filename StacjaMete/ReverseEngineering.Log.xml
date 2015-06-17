@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2015-06-17T02:13:03" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: '0763fa0a-20ff-492e-bf79-28748dd45e0e' -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ca42682d-1e36-430a-a7e0-12874eaa85e4' -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::MetStation' -  (Package)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::MetStation::Controllers' -  (Package)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Medium" Text="Element reverse engineered into the UML model: 'StacjaMete::MetStation::Controllers::HomeController' -  (Class)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::MetStation::Controllers::HomeController::About' -  (Operation)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::MetStation::Controllers::HomeController::Contact' -  (Operation)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::MetStation::Controllers::HomeController::HomeController' -  (Operation)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::MetStation::Controllers::HomeController::Index' -  (Operation)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::MetStation::Controllers::HomeController::Login' -  (Operation)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::MetStation::Controllers::HomeController::Login::u' -  (Parameter)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::MetStation::Controllers::HomeController::LogOut' -  (Operation)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::MetStation::Controllers::HomeController::Register' -  (Operation)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::MetStation::Controllers::HomeController::Register::User' -  (Parameter)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::MetStation::Controllers::HomeController::WeatherResult' -  (Operation)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::MetStation::Models' -  (Package)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Medium" Text="Element reverse engineered into the UML model: 'StacjaMete::MetStation::Models::Pomiary' -  (Class)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::MetStation::Models::Pomiary::Cisnienie' -  (Property)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::MetStation::Models::Pomiary::Data' -  (Property)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::MetStation::Models::Pomiary::IdPomiaru' -  (Property)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::MetStation::Models::Pomiary::NatezenieSwiatla' -  (Property)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::MetStation::Models::Pomiary::Pomiary' -  (Operation)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::MetStation::Models::Pomiary::Temperatura' -  (Property)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Medium" Text="Element reverse engineered into the UML model: 'StacjaMete::MetStation::Models::StacjaMeteoEntities2' -  (Class)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::MetStation::Models::StacjaMeteoEntities2::OnModelCreating' -  (Operation)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::MetStation::Models::StacjaMeteoEntities2::OnModelCreating::modelBuilder' -  (Parameter)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::MetStation::Models::StacjaMeteoEntities2::Pomiary' -  (Property)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::MetStation::Models::StacjaMeteoEntities2::StacjaMeteoEntities2' -  (Operation)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::MetStation::Models::StacjaMeteoEntities2::Uzytkownicy' -  (Property)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Medium" Text="Element reverse engineered into the UML model: 'StacjaMete::MetStation::Models::Uzytkownicy' -  (Class)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::MetStation::Models::Uzytkownicy::ConfirmPassword' -  (Property)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::MetStation::Models::Uzytkownicy::Email' -  (Property)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::MetStation::Models::Uzytkownicy::Haslo' -  (Property)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::MetStation::Models::Uzytkownicy::Uzytkownicy' -  (Operation)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::MetStation::Models::Uzytkownicy::Uzytkownik' -  (Property)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::System' -  (Package)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::System::Data' -  (Package)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::System::Data::Entity' -  (Package)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::System::Data::Entity::DbContext' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::System::Data::Entity::DbModelBuilder' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::System::Data::Entity::DbSet' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::System::Data::Entity::DbSet&lt;Pomiary‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::System::Data::Entity::DbSet&lt;Uzytkownicy‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::System::DateTime' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::System::Decimal' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::System::Nullable' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::System::Nullable&lt;DateTime‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::System::Nullable&lt;Decimal‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::System::Web' -  (Package)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::System::Web::Mvc' -  (Package)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::System::Web::Mvc::ActionResult' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::System::Web::Mvc::Controller' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'StacjaMete::System::Web::Mvc::ViewResult' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: StacjaMete::MetStation::Models::Pomiary to StacjaMete::System::Nullable&lt;Decimal‎&gt; (Association)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: StacjaMete::MetStation::Models::Pomiary to StacjaMete::System::Nullable&lt;DateTime‎&gt; (Association)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: StacjaMete::MetStation::Models::Pomiary to StacjaMete::System::Decimal (Association)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: StacjaMete::MetStation::Models::Pomiary to StacjaMete::System::Nullable&lt;Decimal‎&gt; (Association)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: StacjaMete::MetStation::Models::Pomiary to StacjaMete::System::Nullable&lt;Decimal‎&gt; (Association)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: StacjaMete::MetStation::Models::StacjaMeteoEntities2 to StacjaMete::System::Data::Entity::DbSet&lt;Pomiary‎&gt; (Association)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: StacjaMete::MetStation::Models::StacjaMeteoEntities2 to StacjaMete::System::Data::Entity::DbSet&lt;Uzytkownicy‎&gt; (Association)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: StacjaMete::MetStation::Models::StacjaMeteoEntities2 to StacjaMete::System::Data::Entity::DbContext (Generalization)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: StacjaMete::MetStation::Controllers::HomeController to StacjaMete::System::Web::Mvc::Controller (Generalization)" />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="High" Text="(4) type(s) fully reverse engineered." />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="High" Text="(13) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2015-06-17T02:13:06" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>

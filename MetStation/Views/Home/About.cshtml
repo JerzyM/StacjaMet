@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+    <h2>@ViewBag.Message</h2>
+</hgroup>
+
+<article>
+   <p>Projekt przygotowany na zaliczenie kursu.</p>
+</article>
+
+<aside>
+    <h3>Zobacz też:</h3>
+    <p>
+        
+    </p>
+    <ul>
+        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+        <li>@Html.ActionLink("About", "About", "Home")</li>
+        <li>@Html.ActionLink("Kontakt", "Contact", "Home")</li>
+        <li>@Html.ActionLink("Rejestracja", "Register", "Home")</li>
+        <li>@Html.ActionLink("Wyniki pomiarów", "WeatherResult", "Home")</li>
+    </ul>
+</aside>

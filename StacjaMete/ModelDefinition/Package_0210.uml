@@ -1,0 +1,1132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="1b55bca2-caa6-4b9c-a317-1b7e77ee7065"
+  name="MetStation"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="8d569191-6440-4939-a178-bb62e9c5f24d"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMetStation"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="d65b1f5b-dece-4f19-a2a2-f1b462926c8d"
+        LastKnownName="Models"
+        LastKnownLocation="Package1_0210.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="82e53332-32a6-4a3b-bdd4-5b5b2847871a"
+        LastKnownName="Controllers"
+        LastKnownLocation="Package5_0210.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="3d9dd9a2-d994-4ef6-a825-e5411ec8cd8f"
+        name="FilterConfig"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="22185520-abbb-4419-86d1-4c7489e29284"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation Type%3DFilterConfig"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="69e1b196-8eb7-4d84-b432-3fb754503962"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="261e7434-437c-4d14-97fc-834750830c4c">
+                <propertyInstance
+                  Id="269dcb3d-8ec2-4d3d-8f4b-b79bf18b2504"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5b6fd806-f320-4a74-9d08-b4abd8095306">
+                <propertyInstance
+                  Id="6df03077-4340-4b1c-86c0-1e593b8b63b1"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4bf6d7f6-1e1b-4db3-aa5c-2e44df3738c4">
+                <propertyInstance
+                  Id="de0bc276-e4eb-48c8-8486-0c5f668f846c"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d869d461-4d0e-4240-93dd-6889d3f9969d">
+                <propertyInstance
+                  Id="bd4ab97a-ddd5-433f-aa7b-7989b1e5bcf1"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1b9a85ad-a88c-4828-bd3a-3b410c6c809d">
+                <propertyInstance
+                  Id="37d570f1-9a58-4008-b81b-e4e31966acf5"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="a3b38596-5f0a-4051-aa5f-298d40ffbc35"
+            name="FilterConfig"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="01c99b17-956e-4c61-ac60-56b610633cfc"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation Type%3DFilterConfig Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a3718cd0-ee22-4213-bc22-03816f194450"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f6a8785d-0b3d-41a9-85cf-4e48076d13d3">
+                    <propertyInstance
+                      Id="d156ea4c-4974-46ab-a72c-47bd266fd4fd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a10279b1-d46f-4d5c-bd52-ecd3f3c89e25">
+                    <propertyInstance
+                      Id="5bc4364c-f4c6-4b7f-b497-39ed97fa2a48"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3c73172-63eb-42f9-952b-4ae3936a1e07">
+                    <propertyInstance
+                      Id="a206caaa-1002-43e8-b810-9fd816a21b8b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a66db35c-aa53-4af0-96f5-f2b9193ec9d0">
+                    <propertyInstance
+                      Id="9a1b1397-2e53-4344-bea7-5f83ae28959c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2196c0b0-c0d8-4f01-861f-06debf290c65">
+                    <propertyInstance
+                      Id="c96870d6-7648-4c9d-a7b8-1ae370bb67d7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f877c66-fd29-4e6a-a372-288081085665">
+                    <propertyInstance
+                      Id="3bdfd5fa-d3ff-4995-9e49-c76241240855"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="436a8e9f-813d-4d3f-b346-9f9016fce9b1"
+            name="RegisterGlobalFilters"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1ece587c-a64d-4d3a-85c3-179b701ece63"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation Type%3DFilterConfig Member%3D(Name%3DRegisterGlobalFilters OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2Fpackages%2FMicrosoft.AspNet.Mvc.4.0.30506.0%2Flib%2Fnet40%2FSystem.Web.Mvc.dll&quot; Namespace%3DSystem.Web.Mvc Type%3DGlobalFilterCollection)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="50dffdbc-48c4-42f9-bf2d-2f6027e650b7"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="09d933c2-515b-40e8-b6fe-70d52d3f32e9">
+                    <propertyInstance
+                      Id="3eafc782-0a33-4001-8ae5-83c6b6deac4e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea4a9019-951c-474c-8473-0591e6783ed5">
+                    <propertyInstance
+                      Id="a7f869fd-0f0d-4b58-82e8-bf03e8b87f11"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3691a8b9-e019-494b-ad03-1902c4e6ce9f">
+                    <propertyInstance
+                      Id="1fe79970-e96c-4bf3-a48f-e28ef658dc2e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ba6a13a-7ccf-4fdf-a948-7aa25b0a0c1c">
+                    <propertyInstance
+                      Id="6ba75a55-c4d4-43e4-a058-dd2657f53581"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d0f99e89-4cdd-4a05-a50a-9b7457d1af69">
+                    <propertyInstance
+                      Id="266f1c5b-889d-4db7-a98b-6eef64091b5b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3051f706-c7fd-4d50-8d65-31f45d47e445">
+                    <propertyInstance
+                      Id="619b4efc-10c7-43bf-9e74-bdbeff648bd5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="db08214a-1c6a-487b-8102-caa0623dae16"
+                  name="filters"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f538c0ea-cb2f-4938-b500-bf23ebbf3624"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation Type%3DFilterConfig Member%3D(Name%3DRegisterGlobalFilters OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2Fpackages%2FMicrosoft.AspNet.Mvc.4.0.30506.0%2Flib%2Fnet40%2FSystem.Web.Mvc.dll&quot; Namespace%3DSystem.Web.Mvc Type%3DGlobalFilterCollection)]) ParameterIdentifier%3Dfilters"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5f41361f-89b2-412f-8f28-1d4c192a1c6d"
+                      LastKnownName="GlobalFilterCollection"
+                      LastKnownLocation="Package7_0210.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="45f7b76b-74e5-45a7-b669-b8afc6b1bca0"
+        name="MvcApplication"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="27704945-930b-49b7-b08e-69a0dd1ff956"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation Type%3DMvcApplication"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="fc746ed5-0695-4840-9306-69285654b58c"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c634636a-7512-4b97-9ff5-d5ac8bbe37a3">
+                <propertyInstance
+                  Id="4e903165-bfdd-4286-8341-f2f3462eb9cd"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ad59bad7-bb46-4913-ab3f-cceb60944aba">
+                <propertyInstance
+                  Id="caa55fcb-724c-44ad-9267-5cf54f5a56e5"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2791f0c5-017e-4c21-a227-c8a5c7028bd7">
+                <propertyInstance
+                  Id="b8952c76-91c9-413d-8a2d-671e82b9992e"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="72c28313-508b-4772-9fe3-48e20881093d">
+                <propertyInstance
+                  Id="217e64f7-3971-44f4-8b70-e1d887e473ac"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2c1d2dc5-275e-4f23-8af6-28bfa756ed13">
+                <propertyInstance
+                  Id="3e564c21-24cf-4f82-9f6b-0d540a7f5ead"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="49f37897-6ebb-4a4a-b1b0-3a6106cc0cbc"
+            isSubstitutable="false">
+            <classMoniker
+              Id="8ea72b43-1fe0-4a39-acf1-2a4c3005cbec"
+              LastKnownName="HttpApplication"
+              LastKnownLocation="Package6_0210.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="eb395843-8086-43b7-a0f7-eac88c92ad7d"
+            name="MvcApplication"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="2b35b52f-3025-4c7b-96a6-f70e989eb8f5"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation Type%3DMvcApplication Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="912af884-4f6e-42a2-b254-5cc72923f30c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3689c739-926b-4071-a3b0-de43a156aca3">
+                    <propertyInstance
+                      Id="5df5b197-3959-41f4-b96f-c9dd43e6fe73"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="39fdbad9-2cf8-4da3-972e-0784b2156225">
+                    <propertyInstance
+                      Id="6b8af859-3d8b-41d6-87f7-77efadb39690"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c1bc0a94-4e87-49e5-93e4-d39b6f3a8391">
+                    <propertyInstance
+                      Id="68caa2b5-9ddf-4cab-8181-175054b86870"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b7bafd6-93f1-41dc-9dc4-61d74e1926de">
+                    <propertyInstance
+                      Id="622ec6af-57fc-4b09-8f56-e71158c826f4"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc36d75c-dafd-4c76-922a-9e6e84b4c884">
+                    <propertyInstance
+                      Id="94cda544-78f0-4c20-9615-fc36ee943b88"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f09be4c0-f77a-4285-82ff-59ff373624b9">
+                    <propertyInstance
+                      Id="f4b0d4ad-6ff1-413e-a17d-52496b5a3101"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="5c195b49-83d4-4c06-93ba-fdda0e73aa79"
+            name="Application_Start"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f9f2c4c6-826e-4ee2-baaf-360d02227b88"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation Type%3DMvcApplication Member%3DApplication_Start"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cff57704-6961-4d94-84f5-ead27e96f4d4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6558253d-9049-4229-85a8-dff6acef2e7f">
+                    <propertyInstance
+                      Id="c7edee50-ef88-47d3-a549-61ccf9942267"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1667046a-bfa3-499d-adc7-49e40d65c8e7">
+                    <propertyInstance
+                      Id="23ea9468-d470-41e1-b64c-6a9774a62be9"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="475b3d41-2d40-45c2-910d-6c8f12bfde2e">
+                    <propertyInstance
+                      Id="e064fbd5-514f-4ad9-95c4-fc5242cdff0c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="29d9232a-ad69-4ad7-a45e-1a8e46a2aea3">
+                    <propertyInstance
+                      Id="f754cd81-83c3-41f7-b97c-8e082dd8d2d5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d7b96b58-ed09-46f5-affc-9b5fff7631d1">
+                    <propertyInstance
+                      Id="5b5103c5-a159-4162-bc0e-405ed7eefaad"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb1888f5-c23b-48bc-a13d-e85b58b47d2a">
+                    <propertyInstance
+                      Id="a38c6362-542b-48c0-8bf3-9bf5e8003384"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6741ea16-215c-4993-ad09-3945578ca4b6"
+        name="RouteConfig"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="4806af3d-bf2b-403e-94bf-936b006941e7"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation Type%3DRouteConfig"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="9307d4ac-23df-4211-9e5e-25e5a1ea63ac"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b10607d6-c8aa-4c95-8521-e306e3ae3db5">
+                <propertyInstance
+                  Id="45ca1f55-42a1-4935-bf6f-042022a04616"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8adfbfbb-b5b7-4e19-b231-032a4ed457ff">
+                <propertyInstance
+                  Id="56df2b2c-f0bb-4109-83b6-406222386f5d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="faa4495e-ebe3-4f92-a412-83ecc940021a">
+                <propertyInstance
+                  Id="fe4f88fb-ed6c-4b0c-a256-5bb5a740b7a2"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="87c22c8e-7d98-45d4-ad6e-76e3407188d1">
+                <propertyInstance
+                  Id="9271cfef-b66c-443a-ba89-3b86ec2f8fcd"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b82f36f7-d5b3-4e76-a6db-38fb19c9cab1">
+                <propertyInstance
+                  Id="4f177ebb-54cc-4e63-b681-856faf8faf3b"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="033b6168-6dc0-4196-992f-f09249190e49"
+            name="RouteConfig"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3607fa32-ceb9-4c9e-a92d-54afac44228a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation Type%3DRouteConfig Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9f9f4359-c4cb-4ebd-98cb-7d595350ee2b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="59240348-3870-45df-8957-33924223f09c">
+                    <propertyInstance
+                      Id="d3ce1404-c2d9-46b6-b723-4c193eeb0e00"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d5ff7359-ea0b-4bae-98ce-975ba1592a43">
+                    <propertyInstance
+                      Id="7e8e1e5f-abc9-4691-b363-b1e668c6e403"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="58046c92-8096-4378-85cd-5f4f2db4c3e7">
+                    <propertyInstance
+                      Id="c3e1d471-1485-4bf9-90f6-a46dc5067a32"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bf8e0edf-c099-4699-ac8b-694a8b1e94c4">
+                    <propertyInstance
+                      Id="77b4e168-da33-48b1-bbc3-3ab2e467729d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2094d998-1885-4da5-bb2f-a7c8f4bae514">
+                    <propertyInstance
+                      Id="ef5b3ca5-8ec3-44c6-b38d-26e6517f2c13"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f92fc9c-e7e0-4a15-a3b2-37eb35f18dad">
+                    <propertyInstance
+                      Id="169facdb-b1f1-4fce-a06f-20f7b9a49225"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="7fe4e0fa-1e25-49c4-ba56-d28afb585787"
+            name="RegisterRoutes"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="85c37b9d-b3e9-432a-b602-4f9be16a7b2c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation Type%3DRouteConfig Member%3D(Name%3DRegisterRoutes OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.Web.dll&quot; Namespace%3DSystem.Web.Routing Type%3DRouteCollection)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="44d6c88c-e945-4678-8887-5255196bc947"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e833c51f-346b-429c-aca0-e4709b29fc43">
+                    <propertyInstance
+                      Id="7a03e474-95ad-44cd-b3db-c3ae7f9a2bab"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ef1ce32f-7c85-49e5-ab8c-9aca991e551d">
+                    <propertyInstance
+                      Id="7d447cf1-2605-409f-84cf-068ac5a26288"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aae01729-dbb8-49f7-b41f-97f00bf8d2ec">
+                    <propertyInstance
+                      Id="1f139a82-6698-472d-8368-21b98aba16ff"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="452ca1a6-d3c0-41cb-bc03-1013c6beecbd">
+                    <propertyInstance
+                      Id="ead21eb8-dd73-45dc-a869-487b8fe1590d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="464aa109-6b41-4680-872e-b601d9606b52">
+                    <propertyInstance
+                      Id="0f8af15c-3517-4f3c-bcea-1b8ddd9791da"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="01e49832-c43e-46de-bf45-0ca70788ca0d">
+                    <propertyInstance
+                      Id="ee046f50-f308-43ce-b75b-5907ea5a019a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="25c0bcb4-b4c0-4e5e-868e-bad8257097c9"
+                  name="routes"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="a7469000-c379-42b3-aacd-00912742cb02"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation Type%3DRouteConfig Member%3D(Name%3DRegisterRoutes OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.Web.dll&quot; Namespace%3DSystem.Web.Routing Type%3DRouteCollection)]) ParameterIdentifier%3Droutes"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="25e110df-1699-43c5-9700-fea9cfc0bb57"
+                      LastKnownName="RouteCollection"
+                      LastKnownLocation="Package_0212.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="5a1588f0-3e60-4aa3-a2c3-875ee7d16d68"
+        name="WebApiConfig"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="4caae969-eb91-4800-9757-7cbe71347742"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation Type%3DWebApiConfig"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="e89defad-0741-4d41-9885-9887ff8b62dc"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6aa61af4-f8fc-4994-bee6-7d5536be503b">
+                <propertyInstance
+                  Id="2eec85d2-18f1-4e66-af17-9ee9c459f052"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d21f5b68-0b2c-469a-8032-5fa4452a5300">
+                <propertyInstance
+                  Id="6ad05a5b-6018-4490-9c71-f7ad70579ed6"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a187b248-0119-41ba-80c9-2597d4bf7859">
+                <propertyInstance
+                  Id="b2a73a98-758d-437a-9a85-a3540301afe5"
+                  name="IsStatic"
+                  value="True" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7b39e3fe-4fca-41ae-8252-5a5af3399f2a">
+                <propertyInstance
+                  Id="9234fb7b-73e6-4e7a-8bd7-2479305ab738"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cefb5fd4-9a05-45ad-9edb-b99b5ce19fc5">
+                <propertyInstance
+                  Id="57d5a84f-a967-498f-90a4-15789cf32514"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="3bfc9c28-b4b5-4866-8dc0-e78420001612"
+            name="Register"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5257e89d-77aa-41b3-bc47-9568d08244f2"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation Type%3DWebApiConfig Member%3D(Name%3DRegister OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2Fpackages%2FMicrosoft.AspNet.WebApi.Core.4.0.30506.0%2Flib%2Fnet40%2FSystem.Web.Http.dll&quot; Namespace%3DSystem.Web.Http Type%3DHttpConfiguration)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="427bd9bd-d1ee-4f02-89dd-f193102dda58"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1db5ed9d-f406-4602-96e3-4ae854401854">
+                    <propertyInstance
+                      Id="f9ba8f64-9f79-42f0-af17-49d8d3b5baae"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3d700cae-5624-469c-a03f-f47522b33719">
+                    <propertyInstance
+                      Id="955e2966-3245-4109-bde5-b481c8e8c4ce"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60443cf3-13c7-4347-b498-ca107c8b9c70">
+                    <propertyInstance
+                      Id="c3887a8f-8400-4b41-bc37-7b909a960499"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="718fbc7a-391e-42c9-8046-fc49b62c8664">
+                    <propertyInstance
+                      Id="535b6a8e-1da3-4b9a-865c-6f8203a140fe"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="33a10d43-104f-438a-a767-d40b168726aa">
+                    <propertyInstance
+                      Id="0a7d5daf-1846-4b1b-940c-d874e7d96dd4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b4ba1289-62c9-4f98-a2b1-4e555ee0a68a">
+                    <propertyInstance
+                      Id="282e6cde-4cf6-456d-931f-18efaacf6d66"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="fe54de2a-80ed-4fdf-beb8-316eca90b76d"
+                  name="config"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="037e03f5-d424-4b3e-9ebd-e221a61a3190"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation Type%3DWebApiConfig Member%3D(Name%3DRegister OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2Fpackages%2FMicrosoft.AspNet.WebApi.Core.4.0.30506.0%2Flib%2Fnet40%2FSystem.Web.Http.dll&quot; Namespace%3DSystem.Web.Http Type%3DHttpConfiguration)]) ParameterIdentifier%3Dconfig"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="0b222763-a019-4213-897b-428b66d43548"
+                      LastKnownName="HttpConfiguration"
+                      LastKnownLocation="Package1_0212.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e36fdfb7-f469-477a-a766-8799e4d1afa3"
+        name="AuthConfig"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="dc3d0ccc-e961-4ded-94ce-e7062d93250d"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation Type%3DAuthConfig"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a70f77a4-eea8-427f-b311-eb5c322ccd8a"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7e70cbe1-3e21-453c-958b-9f59da27d376">
+                <propertyInstance
+                  Id="bc7ac93f-c311-4ab1-ac0a-1c69c10332a3"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b7b35cba-2446-430b-b68b-fea18784dba3">
+                <propertyInstance
+                  Id="89d78a72-affe-402d-9e43-06884d2c8671"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4acc3db1-4935-48f3-8dc9-27dd0aab86ec">
+                <propertyInstance
+                  Id="b800aea9-c915-4a43-bd60-fa4fc1564928"
+                  name="IsStatic"
+                  value="True" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6a63d2e6-553a-4efc-8471-f97c175ee725">
+                <propertyInstance
+                  Id="0d5c6420-5c99-4d4a-aa59-759cad5bc181"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c43cebaa-8edf-43eb-9a0e-ce366b9687c0">
+                <propertyInstance
+                  Id="595e0cb7-a01b-4a55-9e61-7d8cec576be5"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="0d884b3c-ded5-43b1-8a04-0c3388f288dc"
+            name="RegisterAuth"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="dcf828cc-a2eb-4cc0-9247-6105670e6e90"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation Type%3DAuthConfig Member%3DRegisterAuth"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="24832932-01b6-4ef2-a60e-3a4f39f73b1f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c95a3192-8710-4d83-ba8b-27baeac036cf">
+                    <propertyInstance
+                      Id="3c1772e5-a249-4ab6-ab4f-227b60fdb9eb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7025da14-3d2f-489e-a4d1-aaed2c283652">
+                    <propertyInstance
+                      Id="896f26f7-bf89-4082-be2f-4ab89358b300"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6aafdcb2-14ec-4253-92ed-399265d61236">
+                    <propertyInstance
+                      Id="9ca4c51b-056b-4cb4-b1d8-33c2e17c4f5e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c349d8fb-40fc-4694-b9b0-31db65b0657d">
+                    <propertyInstance
+                      Id="f1ccbd48-944a-4b6d-8f49-dc4945521b4f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ab08fecf-766b-48da-b98e-293e7f615186">
+                    <propertyInstance
+                      Id="b2004306-e8e0-4ba0-94ae-f00c74fc77df"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b98c055a-5753-4386-a902-569139289179">
+                    <propertyInstance
+                      Id="5bc474b9-aa96-4dbd-b940-90a5d674a504"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="74c9e052-401e-435b-a875-21e40c2fe7ba"
+        name="BundleConfig"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="34de54d7-5b8b-4e96-bda6-06f8314f5bde"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation Type%3DBundleConfig"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="ee19a317-7a7d-48d0-bd03-bf5e12c29d02"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="41d50340-7501-40cf-b487-a6fd1d40266a">
+                <propertyInstance
+                  Id="462e0ddc-b57d-4894-9fbd-47bd70f83e4c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="150a0a18-633d-4f01-b16c-db2f34dcec5a">
+                <propertyInstance
+                  Id="c02fbe9d-d3a9-49bf-8cbf-d7b4f5f252bb"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="89b4f7d7-6e44-485c-82af-c0c170a021c3">
+                <propertyInstance
+                  Id="189cc345-74a3-4931-9143-43bc8068b362"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ffc5ae1d-cfb7-4f42-990f-6f65074abc17">
+                <propertyInstance
+                  Id="817ced60-1cf0-43a7-a8aa-ee447f598856"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9b2ce765-a096-4e06-92a8-7aa7cc0bfc93">
+                <propertyInstance
+                  Id="d19551a0-cee7-4b31-9e4f-58c336f61e45"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="1f23d2f0-5bb4-4518-84dc-40c12edfafc7"
+            name="BundleConfig"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="802de943-c2c9-4fe8-8a06-49187c4de5c6"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation Type%3DBundleConfig Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1c190c8b-de78-4ed6-8c5d-cfa9e9963a1f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3992e08e-ce30-4b8b-8ce7-85d901c4aea2">
+                    <propertyInstance
+                      Id="f26f4793-cd3e-49a9-8659-dda086712bc7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0a0cfbad-a465-47b4-9d60-4a8e32272525">
+                    <propertyInstance
+                      Id="da556475-399a-46eb-a062-f015268fb394"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ee710747-65d1-42e1-b3b2-c0bb55d43780">
+                    <propertyInstance
+                      Id="36b70aaf-3426-42c5-b2f7-5de7bc0f8363"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a4972e3-9d30-4006-8f44-0cc40a56dcae">
+                    <propertyInstance
+                      Id="c71e006a-68f7-4be4-bf9f-9c83cf672ec0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="78dfb830-e1c5-4ff5-b317-0b7eddbed4ee">
+                    <propertyInstance
+                      Id="2cb84525-5a28-4a25-aeb7-9f8d14fbdb3c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="99230a13-e0bb-40e6-996f-6c8595595366">
+                    <propertyInstance
+                      Id="25ac823a-4d15-4fc9-a150-950e67c8a61e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="0aecd7be-2c36-4a9c-9e69-c5b92e889a7f"
+            name="RegisterBundles"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="76ab0db9-b562-4929-b404-fbeecadc3593"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation Type%3DBundleConfig Member%3D(Name%3DRegisterBundles OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2Fpackages%2FMicrosoft.AspNet.Web.Optimization.1.0.0%2Flib%2Fnet40%2FSystem.Web.Optimization.dll&quot; Namespace%3DSystem.Web.Optimization Type%3DBundleCollection)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9e3e240d-bd7c-4c26-bf42-ab1f5ba5f06f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="413000eb-a712-4849-a3bc-22bcca33c1c1">
+                    <propertyInstance
+                      Id="4fd3a38b-4505-489e-96d1-4cf56ca889fe"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8562d065-3b41-4097-ae5c-462e41a5cc80">
+                    <propertyInstance
+                      Id="1c8c74f9-35f9-482a-8021-7636d3fb9d33"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="03857c5d-2201-4e15-9fb4-5e4ba614638d">
+                    <propertyInstance
+                      Id="4af0df15-02e6-4dc7-98ba-880aedd952a3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d637e95c-8867-4030-a867-bcd1b3401ee7">
+                    <propertyInstance
+                      Id="37392132-5de2-4ee7-9c97-107e1c03d298"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bee20adf-50c6-42e1-9b87-4f328c809449">
+                    <propertyInstance
+                      Id="94e6b8ce-2b11-4774-a35e-210118a610dc"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a30be05b-202a-487e-b459-e156607042bf">
+                    <propertyInstance
+                      Id="0b937455-a94e-4b79-b8aa-e286e2368584"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f888d4dc-4b39-42ee-b857-daf43aba8580"
+                  name="bundles"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d5f3c009-e240-4b01-a98d-68f6828bd51e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation Type%3DBundleConfig Member%3D(Name%3DRegisterBundles OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2Fpackages%2FMicrosoft.AspNet.Web.Optimization.1.0.0%2Flib%2Fnet40%2FSystem.Web.Optimization.dll&quot; Namespace%3DSystem.Web.Optimization Type%3DBundleCollection)]) ParameterIdentifier%3Dbundles"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="28725ead-ce15-4a0f-8bef-44ed69d280ca"
+                      LastKnownName="BundleCollection"
+                      LastKnownLocation="Package2_0212.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
