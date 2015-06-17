@@ -89,7 +89,7 @@
             <referencesInternal>
               <reference
                 Id="07df2a68-fd3a-48c1-a5ee-b139602ae409"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Controllers Type%3DHomeController Member%3D(Name%3DLogin OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Models Type%3DUzytkownicy)])"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2F&quot; Namespace%3DMetStation.Controllers Type%3DHomeController Member%3DLogin"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -155,25 +155,6 @@
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="53c94b59-e823-4796-82e7-bd940e6f6eda"
-                  name="u"
-                  direction="In">
-                  <referencesInternal>
-                    <reference
-                      Id="ec7c2c01-24f6-4bf8-ae86-ba43cb60b197"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Controllers Type%3DHomeController Member%3D(Name%3DLogin OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Models Type%3DUzytkownicy)]) ParameterIdentifier%3Du"
-                      tag="ViewCode" />
-                  </referencesInternal>
-                  <type_NamedElement>
-                    <classMoniker
-                      Id="3fb48a77-728f-4cb7-8b33-891c907cc166"
-                      LastKnownName="Uzytkownicy"
-                      LastKnownLocation="Package1_0210.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
           <operation
@@ -187,7 +168,7 @@
             <referencesInternal>
               <reference
                 Id="295456a7-e734-4300-99b8-a9b362508344"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Controllers Type%3DHomeController Member%3D(Name%3DRegister OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Models Type%3DUzytkownicy)])"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2F&quot; Namespace%3DMetStation.Controllers Type%3DHomeController Member%3DRegister"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -253,25 +234,6 @@
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="48f8d1d0-a1b3-48b8-ae46-85c8c31e96ef"
-                  name="User"
-                  direction="In">
-                  <referencesInternal>
-                    <reference
-                      Id="b03e64d3-1df6-423f-a628-232c89fa7994"
-                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Controllers Type%3DHomeController Member%3D(Name%3DRegister OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Models Type%3DUzytkownicy)]) ParameterIdentifier%3DUser"
-                      tag="ViewCode" />
-                  </referencesInternal>
-                  <type_NamedElement>
-                    <classMoniker
-                      Id="3fb48a77-728f-4cb7-8b33-891c907cc166"
-                      LastKnownName="Uzytkownicy"
-                      LastKnownLocation="Package1_0210.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
           <operation
@@ -285,7 +247,7 @@
             <referencesInternal>
               <reference
                 Id="932dab48-25d5-4d3e-8661-caa575132bcb"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Controllers Type%3DHomeController Member%3DAbout"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2F&quot; Namespace%3DMetStation.Controllers Type%3DHomeController Member%3DAbout"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -364,7 +326,7 @@
             <referencesInternal>
               <reference
                 Id="502b67ab-9794-4597-8955-bd948578a644"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Controllers Type%3DHomeController Member%3DContact"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2F&quot; Namespace%3DMetStation.Controllers Type%3DHomeController Member%3DContact"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -443,7 +405,7 @@
             <referencesInternal>
               <reference
                 Id="30b8d9cd-1559-4040-a698-7cda2848fc1b"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Controllers Type%3DHomeController Member%3DIndex"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2F&quot; Namespace%3DMetStation.Controllers Type%3DHomeController Member%3DIndex"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -522,7 +484,7 @@
             <referencesInternal>
               <reference
                 Id="8122a7e2-a4a9-482c-aed0-c707d3023cbf"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Controllers Type%3DHomeController Member%3DLogOut"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2F&quot; Namespace%3DMetStation.Controllers Type%3DHomeController Member%3DLogOut"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -591,164 +553,6 @@
             </ownedParameters>
           </operation>
           <operation
-            Id="71915555-1132-48fb-9bf8-f5408f81069c"
-            name="Login"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
-            <referencesInternal>
-              <reference
-                Id="76cdfc6b-96d5-4054-a68a-979f64ff6bea"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Controllers Type%3DHomeController Member%3DLogin"
-                tag="ViewCode" />
-            </referencesInternal>
-            <appliedStereotypesInternal>
-              <stereotypeInstance
-                Id="3655948c-4f75-41c9-a2c4-9f39b7e0ad02"
-                name="method"
-                profile="CSharpProfile">
-                <propertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="02d3fb90-2fe4-46d5-94c2-0d3ececf41b9">
-                    <propertyInstance
-                      Id="3c35adab-518c-4513-be73-997bb94e121e"
-                      name="ClrAttributes" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="97048ac6-fe6d-40a1-9e6c-9c65d13fede8">
-                    <propertyInstance
-                      Id="5dcfeea7-4f79-4f30-8447-e3b9b37d4bda"
-                      name="IsPartial"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="a1c1d3bd-bff5-474a-aa8e-61c4bb690641">
-                    <propertyInstance
-                      Id="b7d119ec-8a88-4ece-b242-102de71e4fec"
-                      name="IsUnsafe"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="2c2b5a6a-80c3-4cf2-b190-38d09cf27fe4">
-                    <propertyInstance
-                      Id="2455fb27-e6db-4106-b31d-ee4bf6129a24"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="d9dab0c2-3ca1-4aef-99db-a4184dc1e2ea">
-                    <propertyInstance
-                      Id="cb43e1f9-4f56-4281-82c9-7451be2f849a"
-                      name="PackageVisibility"
-                      value="internal" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="c8926a5f-16af-456a-bc5a-5e0bb7035898">
-                    <propertyInstance
-                      Id="d411ef58-1207-4c03-8fcc-fffd8e633711"
-                      name="params"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                </propertyInstances>
-              </stereotypeInstance>
-            </appliedStereotypesInternal>
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="31d5844a-db71-46e1-bd7c-0bba751ecd03"
-                  direction="Return">
-                  <type_NamedElement>
-                    <classMoniker
-                      Id="cf8d5048-b2fa-41d5-9ddb-59f829f90125"
-                      LastKnownName="ViewResult"
-                      LastKnownLocation="Package7_0210.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
-          <operation
-            Id="989557d3-e24e-4f24-804a-dcddc94a95b9"
-            name="Register"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
-            <referencesInternal>
-              <reference
-                Id="6828e3f8-cd1c-41c3-a221-2d500e6cd4c4"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Controllers Type%3DHomeController Member%3DRegister"
-                tag="ViewCode" />
-            </referencesInternal>
-            <appliedStereotypesInternal>
-              <stereotypeInstance
-                Id="9c9e3d2f-7e0c-4424-b102-c8ab789b33d8"
-                name="method"
-                profile="CSharpProfile">
-                <propertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="39ec06aa-6f5d-4275-9e3d-a35c81a81fe8">
-                    <propertyInstance
-                      Id="05404706-a32d-4240-8e6e-f4314b99b0de"
-                      name="ClrAttributes" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="b63b825b-0bae-4267-8253-dd4c5acd5b8c">
-                    <propertyInstance
-                      Id="c0971f3e-ae85-4bea-9979-79098f9419ce"
-                      name="IsPartial"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="7ae620eb-3a8a-4174-bf29-add69c779273">
-                    <propertyInstance
-                      Id="0b86634a-72a7-4c48-b484-5fd26c18c2bb"
-                      name="IsUnsafe"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="9696b5c9-0b7d-4cdd-8749-03932f52f789">
-                    <propertyInstance
-                      Id="2b1b4ea6-1772-4874-8437-bb9238f6f143"
-                      name="Inheritance"
-                      value="none" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="d14a842e-d310-4a32-910d-ac5959a56496">
-                    <propertyInstance
-                      Id="472f7771-cb91-49fa-9a42-d6617ae0e62c"
-                      name="PackageVisibility"
-                      value="internal" />
-                  </stereotypeInstanceHasPropertyInstances>
-                  <stereotypeInstanceHasPropertyInstances
-                    Id="cb65c14b-6c5c-4f9d-9124-4c60e583d44f">
-                    <propertyInstance
-                      Id="ac1ad826-09cc-417e-8385-393e18183c49"
-                      name="params"
-                      value="false" />
-                  </stereotypeInstanceHasPropertyInstances>
-                </propertyInstances>
-              </stereotypeInstance>
-            </appliedStereotypesInternal>
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="b6111077-98f4-40b2-8388-cc66595652a3"
-                  direction="Return">
-                  <type_NamedElement>
-                    <classMoniker
-                      Id="cf8d5048-b2fa-41d5-9ddb-59f829f90125"
-                      LastKnownName="ViewResult"
-                      LastKnownLocation="Package7_0210.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
-          <operation
             Id="28aa6ba7-7ca9-45e3-9359-9273eb0d373e"
             name="WeatherResult"
             isLeaf="false"
@@ -759,7 +563,7 @@
             <referencesInternal>
               <reference
                 Id="61186774-7a81-47a7-a015-0c96c57b605e"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Controllers Type%3DHomeController Member%3DWeatherResult"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2F&quot; Namespace%3DMetStation.Controllers Type%3DHomeController Member%3DWeatherResult"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
@@ -828,7 +632,7 @@
             </ownedParameters>
           </operation>
           <operation
-            Id="c50e00b5-3a2f-4e60-adcf-410d316c73ec"
+            Id="f71d4f64-1d82-4c65-9295-88e77091cc65"
             name="HomeController"
             isLeaf="false"
             isStatic="false"
@@ -837,54 +641,54 @@
             isQuery="false">
             <referencesInternal>
               <reference
-                Id="d20b0155-6d7c-4b24-85ba-f41c6c7b6398"
-                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2Fbin%2FMetStation.dll&quot; Namespace%3DMetStation.Controllers Type%3DHomeController Member%3D.ctor"
+                Id="9d55a3d0-9556-401b-84eb-6a71b0aadc9d"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FJerzy%2FDocuments%2FVisual Studio 2013%2FProjects%2FMetStation%2FMetStation%2F&quot; Namespace%3DMetStation.Controllers Type%3DHomeController Member%3D.ctor"
                 tag="ViewCode" />
             </referencesInternal>
             <appliedStereotypesInternal>
               <stereotypeInstance
-                Id="2825a515-4ab4-4719-a799-a06dbf0cddcd"
+                Id="1121d832-873d-4809-bd22-0457184ef78f"
                 name="method"
                 profile="CSharpProfile">
                 <propertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="d762fae3-a4c9-4d87-97a1-1c43f5a0808d">
+                    Id="89c2cf47-a858-47af-8aff-442feea135a2">
                     <propertyInstance
-                      Id="c59fbeca-8d26-4289-a845-dc30780a8c31"
+                      Id="5300f966-53d2-48d1-b217-3ec444dab9b8"
                       name="ClrAttributes" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="c3ec0293-6dbf-4c90-8ba0-228619ee0f97">
+                    Id="babbc0a6-3522-4040-b79c-52d7cb1882c9">
                     <propertyInstance
-                      Id="d0df9473-71eb-4c97-96c9-1d24a1fd48e6"
+                      Id="26c3453b-0f36-4758-a770-eaec88473f5e"
                       name="IsPartial"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="93de9618-7280-40f2-8def-506767ff5a5d">
+                    Id="05340f1c-7126-4268-becc-d522ecdee912">
                     <propertyInstance
-                      Id="ffa66713-1a51-422e-953c-bd9581b2d880"
+                      Id="4ee52378-7080-43b0-82f9-540bf4834849"
                       name="IsUnsafe"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="2c3d786f-f3f3-4f73-9dc3-c7e2b85e6437">
+                    Id="a37d2ee2-2a6c-4b24-9f65-642b7ae76784">
                     <propertyInstance
-                      Id="c947063e-bd0d-4339-89d7-c84f45a7457f"
+                      Id="797d902e-f893-4b45-abaf-240766b3cc99"
                       name="Inheritance"
                       value="none" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="d8cf871d-3c5b-49fa-a6f7-cc65e45580ed">
+                    Id="be0b6742-a11a-402e-87bf-92b0361296c4">
                     <propertyInstance
-                      Id="beecd96f-53e3-4eed-9b67-92ed519e6503"
+                      Id="719741dd-424d-4b78-bb71-67594d5c7543"
                       name="PackageVisibility"
                       value="internal" />
                   </stereotypeInstanceHasPropertyInstances>
                   <stereotypeInstanceHasPropertyInstances
-                    Id="b15b4e82-cd3d-469b-b2ea-66565ecc3260">
+                    Id="5727b16f-0a39-462e-af2f-fc8f2f8f4c2f">
                     <propertyInstance
-                      Id="8960dccc-9dd9-4c89-aa27-5deb3ca83e6e"
+                      Id="ff38afab-380f-4200-943c-133ce2b8780c"
                       name="params"
                       value="false" />
                   </stereotypeInstanceHasPropertyInstances>

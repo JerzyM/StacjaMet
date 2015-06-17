@@ -335,7 +335,6 @@
     <Content Include="Views\Home\Register.cshtml" />
     <Content Include="Views\Home\WeatherResult.cshtml" />
     <Content Include="Views\Home\Login.cshtml" />
-    <Content Include="Views\Home\AfterLogin.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

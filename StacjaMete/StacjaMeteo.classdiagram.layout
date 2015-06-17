@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="StacjaMeteo">
+  <logicalClassDesignerModelMoniker Id="b50bbb7b-1277-4ea6-a6de-b0f6824540e8" />
+  <nestedChildShapes>
+    <classShape Id="cdb6d375-2362-4ddd-9193-c55690c6fe96" absoluteBounds="0.5, 1.5, 1.5, 1.9886168446143473" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+      <classMoniker Id="be9eb67b-e1df-4b41-8163-ec615b8f71a3" LastKnownName="Pomiary" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="7c8a34e4-0ace-4073-95eb-9a8cd85b6e0f" absoluteBounds="0.515, 2.0153356393178306, 1.4700000000000002, 1.0019530927141505" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="e9e7c08b-6875-4223-8b74-db3c2f6b1b5d" absoluteBounds="0.515, 3.0272887320319812, 1.4700000000000002, 0.36132811258236575" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="29c18245-7f63-4949-a9fa-56999f52e65c" absoluteBounds="2.625, 1.5, 1.5, 1.6683043545484542" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+      <classMoniker Id="b535a315-e223-4b54-80df-3fdf9150d58c" LastKnownName="StacjaMeteoEntities2" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="f36748a8-fe2f-4693-992e-c1e2dab1a73d" absoluteBounds="2.64, 2.0153356393178306, 1.4700000000000002, 0.52148435761531176" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="838513bf-e527-45d5-a458-6ec4da733503" absoluteBounds="2.64, 2.5468199969331424, 1.4700000000000002, 0.52148435761531187" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f24c6b46-a959-4381-b3bd-6a41f9036441" absoluteBounds="2.625, 3.875, 1.5, 1.8284605995814003" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+      <classMoniker Id="ffafc33e-a15a-49df-b5e2-a054b6b5ffd8" LastKnownName="Uzytkownicy" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="ddab48ec-454b-478c-af02-66c98c4c4061" absoluteBounds="2.64, 4.390335639317831, 1.4700000000000002, 0.84179684768120444" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="ec6b5549-a271-4424-bff4-ef47c797f9a0" absoluteBounds="2.64, 5.2421324869990347, 1.4700000000000002, 0.36132811258236575" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f79f4208-7368-491a-84a7-4abe126478f5" absoluteBounds="0.5, 3.875, 1.5, 2.30892933468024" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+      <classMoniker Id="53b398ea-b7c9-43d1-9f57-e0d5fb3a25f7" LastKnownName="HomeController" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="4ba8da6a-b27b-4aa3-b8a1-34b99f03ea8d" absoluteBounds="0.515, 4.39033563931783, 1.4700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="9d3ba4b4-22ad-44c7-9046-0661f8ffa8d6" absoluteBounds="0.515, 4.60150750686725, 1.4700000000000002, 1.4824218278129897" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>
